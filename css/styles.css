@@ -10,16 +10,42 @@ body
     color: #2d3232;
 }
 
+/*background images pages*/
 .homepage
 {
   background: #575757 url('../images/bghomepage.jpg') no-repeat;  
 }
 
-.hallepage
+.infopratiques
 {
- background: #575757 url('../images/bghalle.jpg') no-repeat;   
+   background: #575757 url('../images/bg7.jpg') no-repeat; 
 }
 
+.hallepage
+{
+ background: #575757 url('../images/bg6.jpg') no-repeat;   
+}
+
+.expotempopage
+{
+  background: #575757 url('../images/bg3.jpg') no-repeat;  
+}
+
+.pagepresse
+{
+     background: #575757 url('../images/bg4.jpg') no-repeat; 
+}
+
+.hundertwasserpage
+{
+    background: #575757 url('../images/bghomepage.jpg') no-repeat;
+}
+
+.boutique
+{
+    background: #575757 url('../images/bghalle.jpg') no-repeat;
+}
+/*background images pages*/
 a
 {
     text-decoration: none;
@@ -31,6 +57,9 @@ a:hover
     color: #ff5d09;
 }
 
+
+
+/*Header*/
 #pageheader nav
 {
     height: 30px;
@@ -69,13 +98,22 @@ a:hover
     padding-top: 20px;
 }
 
-
 #logohundertwasser
 {
     float: left;
-    width: 250px;
-    margin-top:20px;
-    margin-left: 47%;
+    width: 240px;
+    margin-top:95px;
+    margin-left: 51%;
+}
+/*Header*/
+
+.line img
+{
+    height: 70%;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 15%;
+    padding-right: 40%;
 }
 
 .maincontent
@@ -134,6 +172,7 @@ a:hover
     padding-top: 0.9%;
 }
 
+/*footer*/
 .adress
 {
     margin-top: 10%;
@@ -176,6 +215,8 @@ a:hover
 .copyright p{
     padding-top: 1%;
 }
+
+/*footer*/
 .clearfix
 {
     clear: both;
@@ -185,8 +226,8 @@ a:hover
 .content
 {
     margin-top: 100px;
-    padding-top: 5%;
-    width: 100%;
+    padding-top: 2%;
+    width: 90%;
     height: 380px;
     background: url('../images/transp.png') repeat; 
     padding-left: 10%;
@@ -204,14 +245,12 @@ a:hover
     float: left;
 }
 
-.line
-{
-    width: 5%
-}
+
 
 .jcarousel-container
 {
-    width: 40%
+    width: 40%;
+
 }
 
 .maintext
@@ -221,9 +260,10 @@ a:hover
     overflow: auto;
     font-size: 0.9em;
     line-height: 1.4em;
+    padding-top:3%;
 }
 
-.maintext h1
+.maintext h1, .formulairecontact h1
 {
 font-weight: lighter;
  text-transform: uppercase;
@@ -233,20 +273,27 @@ font-weight: lighter;
  color: #ff5d09;
 }
 
-/*.mainmenu li
-{
-    display: inline-block;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size:0.9em;
+.formulairecontact h1{
+    margin-left: 10%;
 }
 
-.mainmenu ul
+.planacces
 {
-  margin: 0% 14% 0% 11%;
-  padding-top: 0.5%;
-}*/
+    margin-left: 15%;
+}
 
+
+.maintext h2
+{
+ font-weight: lighter;
+ text-transform: uppercase;
+ font-size: 1em;
+}
+
+.maintext a
+{
+    color: #ff5d09;
+}
 
 /* Menu déroulant */
 .mainmenu
@@ -346,3 +393,32 @@ nav ul li a .sousmenu:hover
     nav ul ul ul {
         position: absolute; left: 100%; top:0;
     }
+
+    /*formulaire*/
+.formulairecontact
+{
+    width: 100%;
+}
+fieldset
+{
+margin-left: 10%;
+    width: 60%;
+}
+    
+fieldset label {
+    display: inline-block;
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+fieldset input
+{
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+fielset .message
+{
+    height: 140px;
+}
+
