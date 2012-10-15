@@ -4,7 +4,7 @@
 .jcarousel-skin-tango .jcarousel-direction-rtl {
     direction: rtl;
 }
-
+/* container*/
 .jcarousel-skin-tango .jcarousel-container-horizontal {
     width: 720px;
     padding: 20px 40px;
@@ -13,13 +13,13 @@
 .jcarousel-skin-tango .jcarousel-clip {
     overflow: hidden;
 }
-
+/* taille globale*/
 .jcarousel-skin-tango .jcarousel-clip-horizontal {
     width:  720px; /*2 * size(img) + 2 *margin */
     height: 250px;
 }
 
-
+/* taille image small */
 .jcarousel-skin-tango .jcarousel-item {
     width: 230px;
     height: 230px;
